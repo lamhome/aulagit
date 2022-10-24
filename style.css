@@ -1,0 +1,124 @@
+/* MENU */
+#menu ul {
+    padding:0px;
+    margin-top:10px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#menu ul li { 
+    display: inline; 
+}
+
+#menu ul li a {
+    padding: 5px 10px;
+    font-size: 14px;
+    display: inline-block;
+
+    /* visual do link */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover{
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom: 3px solid #fff;
+}
+
+#menu ul li a:active{
+    background-color:green;
+    color: #fff;
+}
+
+.box {
+    padding:20px;
+    margin:5px;
+    list-style:none;   
+}
+
+.box h1, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset, button{
+    margin: 20px;
+}
+
+legend{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:rgb(255, 255, 0)
+}
+
+.logo {
+    width: 149px;
+    height: 82px;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+i {
+    font-size: 24px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.remove-all-styles {
+    all: revert;
+}
+
+.fundo_gray{
+    padding: 5px 10px;
+    font-size: 18px;
+    display: inline-block;
+    background-color:#EDEDED;
+}
+
+.fundo_gray a{
+    padding:0px;
+    margin-top:10px;
+    background-color:#EDEDED;
+    list-style:none;  
+
+    padding: 5px 10px;
+    font-size: 18px;
+    display: inline-block;
+
+    /* visual do link */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;    
+}
+
+.fundo_gray a:hover{
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom: 3px solid #fff;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+#form {
+    padding: 10px;
+    margin: 10px;
+} 
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
